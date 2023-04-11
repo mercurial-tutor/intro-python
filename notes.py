@@ -1,4 +1,4 @@
-"""a simple scratchpad file provided for experimentation purposes
+"""a simple scratchpad provided for experimentation purposes
 """
 if __name__ == '__main__':
     print('new dawn, new day')
