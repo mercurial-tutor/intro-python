@@ -10,4 +10,9 @@ def fizzbuzz(number: int) -> str:
     :rtype: str
     """
     # TODO implement our fizzbuzz function ...
-    return 'fizzbuzz'
+    answer = ''
+    if number % 3 == 0:
+        answer += 'fizz'
+    if number % 5 == 0:
+        answer += 'buzz'
+    return answer
