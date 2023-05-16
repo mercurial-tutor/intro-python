@@ -2,7 +2,7 @@ from zoo.animal import Animal
 
 class Reptile(Animal):
     """reptilia is a large subclass of animal"""
-    def __init__(self, name: str, warm_blooded: bool, scale_level: int):
+    def __init__(self, name: str, scale_level: int, warm_blooded: bool):
         # all reptiles are verterbrates ... but are all reptiles cold-blooded?
         super(Reptile, self).__init__(name, True, warm_blooded)
         # all reptiles have scales
