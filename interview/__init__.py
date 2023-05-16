@@ -1,1 +1,1 @@
-"""a module dedicated to commonly asked interview questions."""
+"""a module dedicated to commonly asked interview questions"""

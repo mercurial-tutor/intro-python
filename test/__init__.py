@@ -1,1 +1,1 @@
-"""A module dedicated to running tests and inspecting outputs."""
+"""a module dedicated to running tests and inspecting outputs"""
