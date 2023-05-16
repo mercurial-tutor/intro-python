@@ -11,8 +11,12 @@ def fizzbuzz(number: int) -> str:
     """
     # TODO implement our fizzbuzz function ...
     answer = ''
+    # check to see if the number is a multiple of 3
     if number % 3 == 0:
+        # add the string 'fizz' to answer
         answer += 'fizz'
+    # check to see if the number is a multiple of 5
     if number % 5 == 0:
+        # add the string 'buzz' to answer
         answer += 'buzz'
     return answer
